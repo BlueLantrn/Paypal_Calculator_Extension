@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        width: 200px;
+      }
+      pre {
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      #resetBtn {
+        background-color: #fff;
+        color: rgb(95, 120, 156);
+        border: 2px solid rgb(95, 120, 156);
+        box-shadow: rgb(95, 120, 156) 1px 1px 0px, rgb(95, 120, 156) 2px 2px 0px,
+          rgb(95, 120, 156) 3px 3px 0px, rgb(95, 120, 156) 4px 4px 0px;
+      }
+      #resetBtn:hover {
+        transform: scale(1.05);
+      }
+      .title {
+        color: rgb(95, 120, 156);
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">Paypal Total calculator</h2>
+    <pre id="result">Waiting for data...</pre>
+    <button id="resetBtn">Reset Data</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
