@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Paypal Total Calculator",
   "version": "1.0",
-  "permissions": ["scripting", "activeTab"],
+  "permissions": [],
   "host_permissions": [
     "https://www.paypal.com/mep/unifiedtransactions*",
     "https://www.paypal.com/unifiedtransactions*"
